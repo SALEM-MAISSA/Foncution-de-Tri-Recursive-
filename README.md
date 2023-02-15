@@ -26,6 +26,6 @@ on cherche de trier des elements inhérents a travers des algorithmes elaborés
 
         * pile de priorité (selection)
         * insertion
-        * arbre couvrant minimal 
-        * dichotomie 
+        * partition
+        * fusion 
 
