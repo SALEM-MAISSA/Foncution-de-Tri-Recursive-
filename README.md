@@ -24,8 +24,8 @@ on cherche de trier des elements inhérents a travers des algorithmes elaborés
     
 # les themes du tri : 
 
-        * pile de priorité 
-        * par selection 
+        * pile de priorité (selection)
+        * insertion
         * arbre couvrant minimal 
         * dichotomie 
 
