@@ -1,0 +1,3 @@
+# qu'est ce qu'un tri par selection (ou tri par priorité)
+Le tri par sélection est un algorithme de tri par comparaison non-triée c'est d'aller chercher le plus petit élément du vecteur pour le mettre en premier. 
+Cet algorithme est simple, mais considéré comme inefficace car il s'exécute en temps quadratique en le nombre d'éléments à trier
