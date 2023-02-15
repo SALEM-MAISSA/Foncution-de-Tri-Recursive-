@@ -1,0 +1,7 @@
+# qu'est ce un tri par partition 
+
+Le tri par fusion fonctionne sur le principe diviser pour régner, qui consite à diviser la tâche initiale en deux tâches similaires plus petites. Une autre manière de diviser la tâche est le partitionnement.
+Le partitionnement consiste à choisir un élément dans la liste, appelé le pivot, puis à réarranger la liste pour que tous les éléments inférieurs ou égaux au pivot soient situés avant le pivot et tous les éléments supérieurs au pivot soient situés après le pivot.
+
+On peut choisir le dernier élément de la liste comme pivot :
+  la première constituée des nombres inférieurs ou égaux au pivot, la seconde des nombres supérieurs au pivot
