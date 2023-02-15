@@ -1,0 +1,8 @@
+# La recursivité : une démarche méne la repition d'une méme régle 
+
+Dans l'exemple etudié on exprime le tri d'insertion par une procédure recursive : 
+
+le tri par insertion est stable qui construit le array final trié , est egalement utilisé dans tri hybride c'est a dire de diviser le array en deux sous-ensembles :
+            * un sous-ensemble trié 
+            * un sous-ensemble non trié 
+ le tri par insertion n'est pas le meilleur cen terme de performance mais plus efficace que le tri par selection 
