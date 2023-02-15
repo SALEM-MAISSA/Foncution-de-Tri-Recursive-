@@ -1,0 +1,12 @@
+# qu'est ce un tri par fusion 
+Soient deux listes triées L1 et L2. 
+consiste à obtenir de deux listes triée contenant tous les éléments , commence par comparer les deux premiers éléments a la fin de fusionner les éléments deux à deux 
+L'opération est répétée jusqu'à épuisement d'une des deux listes
+
+#Tri récursif
+
+L'algorithme de tri par fusion peut être formulé de manière récursive, ce qui en facilite l'implémentation.
+
+Divisons la liste initiale en deux listes, la première allant de l'indice 0 à la partie entière de N/2. Les deux sous-listes ont la même taille à une unité près. L'étape suivante consiste à trier ces deux sous-listes avant de les fusionner. Ces deux sous-listes sont elles-mêmes triées par fusion de deux sous listes. On obtient ainsi un algorithme récursif. La récursion s'arrête lorsqu'on obtient une liste d'un seul élément.
+
+Cet algorithme fait partie de la classe des algorithmes de type diviser pour régner, pour lesquels la tâche à accomplir peut être scindée en deux tâches similaires à la première. 
