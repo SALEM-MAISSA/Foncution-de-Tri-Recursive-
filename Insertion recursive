@@ -6,3 +6,7 @@ le tri par insertion est stable qui construit le array final trié , est egaleme
             * un sous-ensemble trié 
             * un sous-ensemble non trié 
  le tri par insertion n'est pas le meilleur cen terme de performance mais plus efficace que le tri par selection 
+ 
+ # une deuxieme apllication du tri par insertion : 
+ 
+soit ine liste de nombres à trier qui consiste à prendre les éléments un par un dans l'ordre de rangement et les insérer dans une liste au bon emplacement
