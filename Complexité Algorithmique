@@ -1,0 +1,19 @@
+ complexité temporelle asymptotique
+
+La complexité temporelle d'un algorithme est la relation entre son temps d'exécution t(N) et le nombre de données N qu'il traite, par exemple la taille de la liste à trier. On s'intéresse généralement à l'ordre de grandeur de ce temps, c'est-à-dire son comportement asymptotique lorsque N est très grand.
+
+La notation Theta est utilisée lorsqu'il est possible de trouver un encadrement du temps de calcul. On écrit que la complexité (temporelle) est Θ(f(N)) s'il existe deux constantes c1 et c2 telle que, pour N assez grand on ait :
+c1f(N)≤t(N)≤c2f(N)
+
+Par exemple, si la complexité est quadratique :
+c1N2≤t(N)≤c2N2
+
+Dans ce cas, on peut aussi dire que l'ordre de grandeur du temps d'exécution est N2.
+
+Lorsqu'il est seulement possible de majorer le comportement asymptotique du temps de calcul, on utilise la notation grand O. On écrit que la complexité est O(f(N)) s'il existe une constante c telle que, pour N assez grand on ait :
+t(N)≤cf(N)
+
+Par exemple, on dira que la complexité est grand O(N2) s'il existe une constante c telle que pour N assez grand :
+t(N)≤cN2
+
+Dans ce cas, il n'est pas exlu que, sous certaines conditions, le temps d'exécution soit par exemple Θ(N). La notation grand O est utilisée lorsqu'on souhaite exprimer la complexité dans le pire des cas.
